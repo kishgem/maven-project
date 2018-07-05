@@ -1,8 +1,7 @@
 pipeline {
     agent any
     
-    PATH = "C:\\Program Files\\Git\\usr\\bin"
-    stages{
+   stages{
         stage('Build'){
             steps {
                 sh 'mvn clean package'
