@@ -1,4 +1,5 @@
 pipeline {
+    environment {
     agent any
     PATH = "C:\\Program Files\\Git\\usr\\bin"
     stages{
@@ -13,5 +14,6 @@ pipeline {
                 }
             }
         }
+    
     }
 }
